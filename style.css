@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -10,10 +10,11 @@ body {
     display: block;
     text-align: right;
 }
-.header img {
+.header__img {
     width: 100%;
 }
-.header .header__link {
+
+.header__link {
     font-family: fantasy, cursive;
 }
 
@@ -21,23 +22,136 @@ body {
 .header { text-align: center;
 }
 }
+
 .main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
+
+
+/* ADD */
+
+.add {
+
+}
+
+.add__item {
+
+}
+
+.add__lab {
+
+}
+
+.add__wrapper {
+
+}
+
+
+.add__input {
+
+}
+
+.add__btn {
+
+
+}
+
+/* TODO */
+.todo {
+
+}
+
+.todo__h3 {
+
+}
+
+.todo__ul {
+
+}
+
+.todo__li {
+
+}
+
+.todo__in-check {
+
+}
+
+.todo__lab {
+
+}
+
+.todo__in-text {
+
+}
+
+.todo__btn-edit {
+
+}
+
+.todo__btn-del {
+
+}
+
+.todo__img {
+
+}
+
+/* Completed*/
+
+.compl {
+
+}
+
+.compl__h3 {
+    
+}
+
+.compl__in-check {
+    
+}
+
+.compl__lab {
+    
+}
+
+.compl__in-text {
+    
+}
+
+.compl__btn-edit {
+    
+}
+
+.compl__btn-del {
+    
+}
+
+.compl__img {
+    
+}
+
+
+
+
 .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
+
+
 .row-wrapper {
     display: flex;
 }
+
 ul {
     margin:0;
     padding: 0px;
 }
+
 li, h3 {
     list-style:none;
 }
@@ -128,7 +242,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed label {
     text-decoration: line-through
     color: #888;
 }
