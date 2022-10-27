@@ -20,8 +20,8 @@
       <section class="add">
         <p class="add__item" id="add-item">
           <label class="add__lab" for="new-task">Add Item</label>
-          <div class="add__wrapper row-wrapper">
-              <input id="new-task" class="add__input task" type="text"><button class="add__btn">Add</button>
+          <div class="add__wrapper">
+              <input id="new-task" class="add__input" type="text"><button class="add__btn">Add</button>
           </div>
         </p>
       </section>
@@ -29,14 +29,18 @@
         <h3 class="todo__h3">Todo</h3>
         <ul class="todo__ul" id="incomplete">
           <li class="todo__li">
-              <input class="todo__in-check" type="checkbox"><label class="todo__lab task">Pay Bills</label>
-              <input type="text" class="todo__in-text task"><button class="todo__btn-edit edit">Edit</button>
-              <button class="todo__btn-del delete"><img class="todo__img" src="./remove.svg"></button>
+              <input class="todo__in-check" type="checkbox">
+              <label class="todo__lab">Pay Bills</label>
+              <input class="todo__in-text" type="text">
+              <button class="todo__btn-edit">Edit</button>
+              <button class="todo__btn-del"><img class="todo__img" src="./remove.svg"></button>
           </li>
           <li class="todo__li edit-mode">
-              <input class="todo__in-check" type="checkbox"><label class="todo__lab task">Go Shopping</label>
-              <input type="text" value="Go Shopping" class="todo__in-text task"><button class="todo__btn-edit edit">Save</button>
-              <button class="todo__btn-del delete"><img class="todo__img" src="./remove.svg"></button>
+              <input class="todo__in-check" type="checkbox">
+              <label class="todo__lab todo__lab_edit">Go Shopping</label>
+              <input class="todo__in-text todo__in-text_edit" type="text" value="Go Shopping">
+              <button class="todo__btn-edit">Save</button>
+              <button class="todo__btn-del"><img class="todo__img" src="./remove.svg"></button>
           </li>
         </ul>
       </section>
@@ -44,9 +48,11 @@
         <h3 class="compl__h3">Completed</h3>
         <ul class="compl__ul" id="completed">
           <li class="compl__li">
-              <input class="compl__in-check" type="checkbox" checked><label class="compl__lab task">See the Doctor</label>
-              <input type="text" class="compl__in-text task"><button class="compl__btn-edit edit">Edit</button>
-              <button class="compl__btn-del delete"><img class="compl__img" src="./remove.svg"></button>
+              <input class="compl__in-check" type="checkbox" checked>
+              <label class="compl__lab compl__lab_check">See the Doctor</label>
+              <input class="compl__in-text" type="text">
+              <button class="compl__btn-edit">Edit</button>
+              <button class="compl__btn-del"><img class="compl__img" src="./remove.svg"></button>
           </li>
         </ul>
       </section>      
