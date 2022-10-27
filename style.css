@@ -20,7 +20,7 @@
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -100,7 +100,7 @@
 }
 
 .item__h3 {
-    list-style:none;
+    list-style: none;
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -111,12 +111,12 @@
 }
 
 .item__ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 .item__li {
-    list-style:none;
+    list-style: none;
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -150,7 +150,7 @@
 }
 
 .item__lab_edit {
-    display:none;
+    display: none;
 }
 
 .item__in-text {
@@ -169,12 +169,12 @@
     font-family: Lato, sans-serif;
     color: #888;
     width: 226px;
-    display:none    
+    display: none    
 }
 
 .item__in-text_edit {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .item__in-text:focus {
