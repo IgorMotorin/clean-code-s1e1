@@ -4,12 +4,14 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .header__img {
     width: 100%;
 }
@@ -19,8 +21,11 @@
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
-}
+
+  .header { 
+    text-align: center;
+  }
+
 }
 
 .main {
@@ -28,7 +33,6 @@
     width: 500px;
     margin: 0 auto 0;
 }
-
 
 /* ADD */
 
@@ -50,14 +54,11 @@
     text-transform: uppercase;
     display: block;
     margin: 0 0 20px;
-
 }
 
 .add__wrapper {
     display: flex;
-
 }
-
 
 .add__input {
     width: 56%;
@@ -75,7 +76,6 @@
     font-family: Lato, sans-serif;
     color: #888;
     width: 318px;
-
 }
 
 .add__btn {
@@ -87,15 +87,11 @@
     width: 60px;
     font-family: Lato, sans-serif;
     cursor: pointer;
-
-
 }
 
 .add__btn:hover {
-    color: #3a3A3a;
-    
+    color: #3a3A3a;    
 }
-
 
 /* Item element*/
 
@@ -111,37 +107,31 @@
     border-bottom: 2px solid #333;
     padding: 30px 0 10px;
     margin: 0;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
+
 .item__ul {
     margin:0;
     padding: 0px;
 }
+
 .item__li {
     list-style:none;
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .item__li > * {
     vertical-align: middle;
 }
 
-
-
-
-
 .item__in-check {
     outline: none;
-    margin: 0 10px;
-    
+    margin: 0 10px;    
 }
 
 .item__lab {
@@ -151,18 +141,13 @@
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
-    width: 226px;
-    
-    
+    width: 226px;    
 }
 
-.item__lab_check {
-    
+.item__lab_check {    
     text-decoration: line-through;
-    color: #888;
-    
+    color: #888;    
 }
-
 
 .item__lab_edit {
     display:none;
@@ -184,8 +169,7 @@
     font-family: Lato, sans-serif;
     color: #888;
     width: 226px;
-    display:none
-    
+    display:none    
 }
 
 .item__in-text_edit {
@@ -194,8 +178,7 @@
 }
 
 .item__in-text:focus {
-    color: #333;
-    
+    color: #333;    
 }
 
 
@@ -208,13 +191,11 @@
     font-size: 15px;
     width: 60px;
     font-family: Lato, sans-serif;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 .item__btn-edit:hover {
-    color: #3a3A3a;
-    
+    color: #3a3A3a;    
 }
 
 
@@ -226,20 +207,17 @@
     font-size: 15px;
     width: 60px;
     font-family: Lato, sans-serif;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 .item__btn-del:hover {
-    color: #3a3A3a;
-    
+    color: #3a3A3a;    
 }
 
 .item__img {
     height: 2em;
     transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
-    
+    transition: transform 200ms ease-in;    
 }
 
 .item__img:hover {
